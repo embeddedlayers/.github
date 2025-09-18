@@ -1,4 +1,5 @@
-# 🚀 EmbeddedLayers Analytics
+# 🚀 EmbeddedLayers
+*A DBA of PeopleDrivenAI LLC*
 
 **Professional AI-Powered Data Analytics & Statistical Tools for Modern Development**
 
@@ -71,4 +72,6 @@ We welcome contributions from the community! Check out our repositories for:
 
 <div align="center">
   <strong>Building the future of AI-powered analytics, one tool at a time.</strong>
+  <br>
+  <sub>© 2024 PeopleDrivenAI LLC - All Rights Reserved</sub>
 </div>
