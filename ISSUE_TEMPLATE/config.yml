@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support Request
+    url: mailto:support@embeddedlayers.com
+    about: Contact our support team for account or licensing questions
+  - name: Security Issue
+    url: mailto:security@embeddedlayers.com
+    about: Please report security vulnerabilities directly to our security team
+  - name: Documentation
+    url: https://github.com/embeddedlayers/mcp-analytics/wiki
+    about: Check our documentation for guides and API references
+  - name: Community Discussions
+    url: https://github.com/embeddedlayers/mcp-analytics/discussions
+    about: Ask questions and discuss with our team and community
