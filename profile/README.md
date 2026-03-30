@@ -1,77 +1,46 @@
-# 🚀 EmbeddedLayers
+# EmbeddedLayers
+
 *A DBA of PeopleDrivenAI LLC*
 
-**Professional AI-Powered Data Analytics & Statistical Tools for Modern Development**
+**Data analytics for AI assistants — ask a question, upload your data, get an interactive report.**
 
 [![MCP Analytics](https://img.shields.io/badge/MCP-Analytics-blue)](https://mcpanalytics.ai)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## 🎯 Our Mission
+## What We Build
 
-EmbeddedLayers delivers enterprise-grade statistical and machine learning tools that seamlessly integrate with modern AI development workflows. We bridge the gap between advanced analytics and practical implementation, making sophisticated data analysis accessible through intuitive interfaces.
+MCP Analytics brings statistical analysis and machine learning directly into Claude, Cursor, and any MCP-compatible AI assistant. Upload a CSV or connect live data — describe your question in plain English — get an interactive HTML report with charts and AI-written insights.
 
-## 🛠️ Featured Projects
+### [MCP Analytics Server](https://github.com/embeddedlayers/mcp-analytics)
 
-### [MCP Analytics](https://github.com/embeddedlayers/mcp-analytics)
-Professional statistical analysis tools for Claude/Cursor via MCP. Features 50+ ML/statistics tools with OAuth2 security, intelligent tool discovery, and enterprise-grade data processing.
+- 70+ analysis modules — regression, clustering, time series, hypothesis testing, customer analytics, ML
+- Live connectors — Google Analytics 4, Google Search Console, with more planned
+- Natural language discovery — describe your question, we match the right method
+- Interactive reports — shareable HTML with visualizations and plain-English interpretation
+- Docker-isolated processing with OAuth2 security
 
-**Key Features:**
-- 🔐 OAuth2 authentication & secure data handling
-- 📊 50+ statistical and ML tools
-- 🎯 Intelligent tool discovery system
-- 📈 Interactive visualization reports
-- 🚀 Docker-isolated processing
-
-### [PDai Analytics Suite](https://github.com/embeddedlayers/package-PDai)
-Core R package for AI-powered predictive analytics and data insights. Provides foundational functionality for statistical modeling and machine learning workflows.
-
-### [PDai PostgreSQL Integration](https://github.com/embeddedlayers/package-PDaiPostgres)
-Enterprise-ready PostgreSQL integration for the PDai analytics ecosystem. Optimized for large-scale data processing and real-time analytics.
-
-## 💡 What We Do
-
-- **Statistical Analysis Tools**: Comprehensive suite of regression, classification, clustering, and time series analysis tools
-- **Machine Learning Integration**: Seamless integration with modern ML frameworks and AI assistants
-- **Enterprise Data Solutions**: Scalable, secure analytics infrastructure for production environments
-- **Developer-First Design**: APIs and tools built by developers, for developers
-
-## 🔧 Technology Stack
+## Technology Stack
 
 - **Languages**: Python, R, TypeScript
 - **Frameworks**: FastAPI, Docker, MCP Protocol
-- **Databases**: PostgreSQL, Redis
-- **Security**: OAuth2, JWT, End-to-end encryption
-- **Infrastructure**: Docker, Kubernetes-ready
+- **Database**: PostgreSQL
+- **Security**: OAuth2, JWT, end-to-end encryption
 
-## 📈 Use Cases
+## Get Involved
 
-- **Data Science Teams**: Accelerate analysis workflows with AI-assisted tools
-- **Enterprise Analytics**: Production-ready statistical processing at scale
-- **Research & Academia**: Robust statistical methods with reproducible results
-- **AI Development**: Enhance Claude/Cursor with advanced analytics capabilities
+- **[Issues & Feature Requests](https://github.com/embeddedlayers/mcp-analytics/issues)** — report bugs, request analysis modules or connectors
+- **[Discussions](https://github.com/embeddedlayers/mcp-analytics/discussions)** — questions, ideas, show & tell
+- **[Roadmap](https://github.com/embeddedlayers/mcp-analytics/blob/main/ROADMAP.md)** — what's planned
 
-## 🤝 Get Involved
-
-We welcome contributions from the community! Check out our repositories for:
-- 📖 Comprehensive documentation
-- 🐛 Issue tracking and feature requests
-- 🔄 Pull request guidelines
-- 💬 Community discussions
-
-## 📫 Connect With Us
+## Contact
 
 - **Website**: [mcpanalytics.ai](https://mcpanalytics.ai)
-- **Email**: support@embeddedlayers.com
-- **Documentation**: [MCP Analytics Docs](https://github.com/embeddedlayers/mcp-analytics#readme)
-
-## 📊 Stats & Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=embeddedlayers&show_icons=true&theme=dark&count_private=true)
+- **Email**: support@mcpanalytics.ai
 
 ---
 
 <div align="center">
-  <strong>Building the future of AI-powered analytics, one tool at a time.</strong>
+  <strong>Ask a question. Upload your data. Get an interactive report.</strong>
   <br>
-  <sub>© 2024 PeopleDrivenAI LLC - All Rights Reserved</sub>
+  <sub>© 2026 PeopleDrivenAI LLC</sub>
 </div>
