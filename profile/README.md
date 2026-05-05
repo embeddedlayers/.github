@@ -2,22 +2,27 @@
 
 *A DBA of PeopleDrivenAI LLC*
 
-**Data analytics for AI assistants — ask a question, upload your data, get an interactive report.**
+**Adhoc analysis generation — your data, your question, a custom analysis on demand.**
 
 [![MCP Analytics](https://img.shields.io/badge/MCP-Analytics-blue)](https://mcpanalytics.ai)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+> ⚠️ **Beta — v2 rebuild in progress.** [mcpanalytics.ai](https://mcpanalytics.ai) is live behind a beta banner while we ship v2. Some features are incomplete or unstable during this period. Tracking: [#22 — what's changing, what to expect](https://github.com/embeddedlayers/mcp-analytics/issues/22). Prefer to wait? [Get launch updates →](https://mcpanalytics.ai/#newsletter-footer)
+
 ## What We Build
 
-MCP Analytics brings statistical analysis and machine learning directly into Claude, Cursor, and any MCP-compatible AI assistant. Upload a CSV or connect live data — describe your question in plain English — get an interactive HTML report with charts and AI-written insights.
+MCP Analytics is an AI-native analytics company. You bring data and a question; a standing team of specialist agents builds a custom analysis module specific to your data, validates the methodology, and ships back a citable, interactive report. Every commissioned module is **yours** — it lives in your library, reruns on fresh data for a fraction of the creation cost, and is queryable from Claude, Cursor, or any MCP client. The work compounds.
+
+The mental model is **hire the team**, not "use the tool."
 
 ### [MCP Analytics Server](https://github.com/embeddedlayers/mcp-analytics)
 
-- 70+ analysis modules — regression, clustering, time series, hypothesis testing, customer analytics, ML
-- Live connectors — Google Analytics 4, Google Search Console, with more planned
-- Natural language discovery — describe your question, we match the right method
-- Interactive reports — shareable HTML with visualizations and plain-English interpretation
-- Docker-isolated processing with OAuth2 security
+- **Custom module creation** — describe what you want analyzed; the pipeline builds a module specific to your data and domain. Pay once, own it, rerun forever.
+- **Cornerstone modules** — pre-built analyses (t-tests, regression, churn, segmentation, forecasting, customer LTV, A/B testing, time series, survival analysis, more) that prove the team can build things that work
+- **Live connectors** — Google Analytics 4, Google Search Console, Shopify, Stripe (more coming)
+- **Citable, sourceable, reproducible reports** — APA/MLA/Chicago/BibTeX, embedded R source code, fixed seeds, Docker isolation
+- **MCP-native** — query your library from Claude, Cursor, Windsurf, or any MCP client
+- **Secure** — OAuth2, encryption at rest, isolated container processing per analysis
 
 ## Technology Stack
 
@@ -40,7 +45,7 @@ MCP Analytics brings statistical analysis and machine learning directly into Cla
 ---
 
 <div align="center">
-  <strong>Ask a question. Upload your data. Get an interactive report.</strong>
+  <strong>Hire the team. Own the analysis. Rerun forever.</strong>
   <br>
   <sub>© 2026 PeopleDrivenAI LLC</sub>
 </div>
