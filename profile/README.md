@@ -26,7 +26,7 @@ Every analysis runs through the same validated pipeline — you choose how far i
 - **MCP-native** — query your library from Claude, Cursor, Windsurf, or any MCP client
 - **Secure** — OAuth2, encryption at rest, isolated container processing per analysis
 
-[Sign up free →](https://account.mcpanalytics.ai) — 2,000 welcome credits, no credit card required.
+[Sign up free →](https://account.mcpanalytics.ai) — 500 welcome credits, no credit card required.
 
 ## Technology Stack
 
