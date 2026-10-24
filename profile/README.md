@@ -2,54 +2,26 @@
 
 *A DBA of PeopleDrivenAI LLC*
 
-**The statistical analyst in your AI chat — your data, your question, a custom analysis on demand.**
+**A statistical analyst in your AI chat.** Bring a dataset and a question, get back a citable, re-runnable analysis with its method named.
 
 [![MCP Analytics](https://img.shields.io/badge/MCP-Analytics-blue)](https://mcpanalytics.ai)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/embeddedlayers/mcp-analytics/blob/main/LICENSE)
 
-## What We Build
+## What we build
 
-MCP Analytics is an AI-native analytics company. You bring data and a question; a standing team of specialist agents builds a custom analysis specific to your data, validates the methodology, and ships back a citable, interactive report. Every commissioned analysis is **yours** — it lives in your library, reruns on fresh data for a fraction of the creation cost, and is queryable from Claude, Cursor, or any MCP client. The work compounds.
+MCP Analytics is a Model Context Protocol server that answers business and statistical questions about your data, as deep as each question needs:
 
-The mental model is **hire the team**, not "use the tool."
+- **Answer:** a quick question about the data, read from all of it, shown with how we got it, and saved.
+- **Analytics:** a tested statistical method runs on the data, and we interpret it with charts and a written report.
+- **Custom Analytics:** a question only your business asks, built for your data from proven models, yours to re-run on next month's file.
 
-### Choose Your Depth
+Analytics is repeatable: same data, same numbers. Every report names its method and the code that ran it.
 
-Every analysis runs through the same validated pipeline — you choose how far it goes: a fast **Snapshot** (~2 min, one chart and a verified insight), a computed **JSON** answer deployed as a re-runnable tool, a one-page **Brief**, or a full **Deck** study you own and re-run forever. You pay for depth, and only if the build succeeds. [How the tiers work →](https://mcpanalytics.ai/tiers.html)
+## Repositories
 
-### [MCP Analytics Server](https://github.com/embeddedlayers/mcp-analytics)
+- [mcp-analytics](https://github.com/embeddedlayers/mcp-analytics): the MCP server listing. Connect from Claude, Cursor, Windsurf or any MCP client.
+- [replication-karlan-list-2007](https://github.com/embeddedlayers/replication-karlan-list-2007): an open replication of Karlan and List (2007), did the match offer cause more giving? Our code MIT, the data under its own open licence (CC0).
 
-- **Custom analysis creation** — describe what you want analyzed; the pipeline builds it specific to your data and domain. Pay once, own it, rerun forever.
-- **Cornerstone modules** — pre-built analyses (t-tests, regression, churn, segmentation, forecasting, customer LTV, A/B testing, time series, survival analysis, more) that prove the team can build things that work
-- **Live connectors** — Google Analytics 4, Google Search Console (more coming)
-- **Citable, sourceable, reproducible reports** — APA/MLA/Chicago/BibTeX, embedded R source code, fixed seeds, Docker isolation
-- **MCP-native** — query your library from Claude, Cursor, Windsurf, or any MCP client
-- **Secure** — OAuth2, encryption at rest, isolated container processing per analysis
+Free to start; see [pricing](https://mcpanalytics.ai/pricing).
 
-[Sign up free →](https://account.mcpanalytics.ai) — 500 welcome credits, no credit card required.
-
-## Technology Stack
-
-- **Languages**: Python, R, TypeScript
-- **Frameworks**: FastAPI, Docker, MCP Protocol
-- **Database**: PostgreSQL
-- **Security**: OAuth2, JWT, end-to-end encryption
-
-## Get Involved
-
-- **[Issues & Feature Requests](https://github.com/embeddedlayers/mcp-analytics/issues)** — report bugs, request analysis modules or connectors
-- **[Discussions](https://github.com/embeddedlayers/mcp-analytics/discussions)** — questions, ideas, show & tell
-- **[Roadmap](https://github.com/embeddedlayers/mcp-analytics/blob/main/ROADMAP.md)** — what's planned
-
-## Contact
-
-- **Website**: [mcpanalytics.ai](https://mcpanalytics.ai)
-- **Email**: support@mcpanalytics.ai
-
----
-
-<div align="center">
-  <strong>Hire the team. Own the analysis. Rerun forever.</strong>
-  <br>
-  <sub>© 2026 PeopleDrivenAI LLC</sub>
-</div>
+Website: [mcpanalytics.ai](https://mcpanalytics.ai) · Free tools to try in the browser: [mcpanalytics.ai/free](https://mcpanalytics.ai/free/) · Account: [account.mcpanalytics.ai](https://account.mcpanalytics.ai)
